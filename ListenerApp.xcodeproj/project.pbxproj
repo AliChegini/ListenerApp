@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C71154723717382009449E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C71154623717382009449E1 /* MainViewController.swift */; };
+		7C7115492371767C009449E1 /* MainIntegratedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7115482371767C009449E1 /* MainIntegratedController.swift */; };
+		7C71154C23717AD9009449E1 /* ShowRadioUIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C71154B23717AD9009449E1 /* ShowRadioUIs.swift */; };
 		7CF0B5ED23704C8B00A7DCD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0B5EC23704C8B00A7DCD2 /* AppDelegate.swift */; };
 		7CF0B5EF23704C8B00A7DCD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0B5EE23704C8B00A7DCD2 /* SceneDelegate.swift */; };
 		7CF0B5F123704C8B00A7DCD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0B5F023704C8B00A7DCD2 /* ContentView.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C71154623717382009449E1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7C7115482371767C009449E1 /* MainIntegratedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntegratedController.swift; sourceTree = "<group>"; };
+		7C71154B23717AD9009449E1 /* ShowRadioUIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRadioUIs.swift; sourceTree = "<group>"; };
 		7CF0B5E923704C8B00A7DCD2 /* ListenerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListenerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF0B5EC23704C8B00A7DCD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF0B5EE23704C8B00A7DCD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C71154A23717A5A009449E1 /* ShowRadio */ = {
+			isa = PBXGroup;
+			children = (
+				7C71154B23717AD9009449E1 /* ShowRadioUIs.swift */,
+				7C71154623717382009449E1 /* MainViewController.swift */,
+			);
+			path = ShowRadio;
+			sourceTree = "<group>";
+		};
 		7CF0B5E023704C8B00A7DCD2 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +94,10 @@
 		7CF0B5EB23704C8B00A7DCD2 /* ListenerApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C71154A23717A5A009449E1 /* ShowRadio */,
 				7CF0B5EC23704C8B00A7DCD2 /* AppDelegate.swift */,
 				7CF0B5EE23704C8B00A7DCD2 /* SceneDelegate.swift */,
+				7C7115482371767C009449E1 /* MainIntegratedController.swift */,
 				7CF0B5F023704C8B00A7DCD2 /* ContentView.swift */,
 				7CF0B5F223704C9000A7DCD2 /* Assets.xcassets */,
 				7CF0B5F723704C9000A7DCD2 /* LaunchScreen.storyboard */,
@@ -208,9 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C71154C23717AD9009449E1 /* ShowRadioUIs.swift in Sources */,
+				7C7115492371767C009449E1 /* MainIntegratedController.swift in Sources */,
 				7CF0B5ED23704C8B00A7DCD2 /* AppDelegate.swift in Sources */,
 				7CF0B5EF23704C8B00A7DCD2 /* SceneDelegate.swift in Sources */,
 				7CF0B5F123704C8B00A7DCD2 /* ContentView.swift in Sources */,
+				7C71154723717382009449E1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +387,7 @@
 				DEVELOPMENT_TEAM = ATB37JP4VX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ListenerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +408,7 @@
 				DEVELOPMENT_TEAM = ATB37JP4VX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ListenerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
